@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Test.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -25,7 +26,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%lu", (unsigned long)[array retainCount]);
         [array release];
         
-                
+        Test* test = [[Test alloc] init];
+        
+        NSString* string = [[NSString alloc] init];
+        // [string release];
+        
+        
     }
     return 0;
 }
