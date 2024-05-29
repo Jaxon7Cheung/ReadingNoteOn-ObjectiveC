@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A2050EC62C05D0A600EC5457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EC52C05D0A600EC5457 /* AppDelegate.m */; };
 		A2050EC92C05D0A600EC5457 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EC82C05D0A600EC5457 /* SceneDelegate.m */; };
-		A2050ECC2C05D0A600EC5457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050ECB2C05D0A600EC5457 /* ViewController.m */; };
+		A2050ECC2C05D0A600EC5457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050ECB2C05D0A600EC5457 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2050ECF2C05D0A600EC5457 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A2050ECE2C05D0A600EC5457 /* Base */; };
 		A2050ED12C05D0A800EC5457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2050ED02C05D0A800EC5457 /* Assets.xcassets */; };
 		A2050ED42C05D0A800EC5457 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A2050ED32C05D0A800EC5457 /* Base */; };

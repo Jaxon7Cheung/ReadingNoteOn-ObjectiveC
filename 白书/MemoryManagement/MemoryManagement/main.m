@@ -19,13 +19,13 @@ int main(int argc, const char * argv[]) {
 //        NSLog(@"obj1 当前引用计数：%lu",(unsigned long)[obj1 retainCount]);
 //        [obj1 release];
         
-        NSMutableArray* array = [[NSMutableArray alloc] init];
-        NSNumber* number = [[NSNumber alloc] initWithInt: 1337];
-        [array addObject: number];  //number retain
-        [number release];
-        NSLog(@"%lu", (unsigned long)[array retainCount]);
-        [array release];
-        
+//        NSMutableArray* array = [[NSMutableArray alloc] init];
+//        NSNumber* number = [[NSNumber alloc] initWithInt: 1337];
+//        [array addObject: number];  //number retain
+//        [number release];
+//        NSLog(@"%lu", (unsigned long)[array retainCount]);
+//        [array release];
+//        
         Test* test = [[Test alloc] init];
         
         NSString* string = [[NSString alloc] init];
