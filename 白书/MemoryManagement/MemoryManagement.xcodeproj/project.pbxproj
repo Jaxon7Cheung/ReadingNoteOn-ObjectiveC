@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2050EAC2C030EB300EC5457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EAB2C030EB300EC5457 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2050EAC2C030EB300EC5457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EAB2C030EB300EC5457 /* main.m */; };
 		A2050EB72C03289300EC5457 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EB62C03289300EC5457 /* Test.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2050EDF2C0CC84400EC5457 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EDE2C0CC84300EC5457 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A2050EAB2C030EB300EC5457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2050EB52C03289300EC5457 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		A2050EB62C03289300EC5457 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		A2050EDD2C0CC84300EC5457 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A2050EDE2C0CC84300EC5457 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				A2050EAB2C030EB300EC5457 /* main.m */,
+				A2050EDD2C0CC84300EC5457 /* Person.h */,
+				A2050EDE2C0CC84300EC5457 /* Person.m */,
 				A2050EB52C03289300EC5457 /* Test.h */,
 				A2050EB62C03289300EC5457 /* Test.m */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2050EDF2C0CC84400EC5457 /* Person.m in Sources */,
 				A2050EAC2C030EB300EC5457 /* main.m in Sources */,
 				A2050EB72C03289300EC5457 /* Test.m in Sources */,
 			);

@@ -24,10 +24,21 @@ void PrintClassInfo(id obj) {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIView* view = [[UIView alloc] init];
+//    UIView* view = [[UIView alloc] init];
 //    [view release];
 //    [NSTimer scheduledTimerWithTimeInterval: 0.1 target: self selector: @selector(timeIsUp) userInfo: nil repeats: YES];
+//    NSDictionary* dit
     
+//    CGImageRef* imageRef = CGImageCreateWithImageInRect(someImage, someRect);
+// ...
+//    CGImageRelease(imageRef); //  释放内存
+    
+    for (int i = 0; i < 1000; ++i) {
+        @autoreleasepool {
+            UIImage* image = [UIImage imageNamed: @"largeImage"];
+            // ...
+        }
+    }
 }
 
 //- (void)timeIsUp {
