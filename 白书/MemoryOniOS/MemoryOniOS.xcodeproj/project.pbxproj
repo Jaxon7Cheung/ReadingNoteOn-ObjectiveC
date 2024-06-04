@@ -14,6 +14,8 @@
 		A2050ED12C05D0A800EC5457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2050ED02C05D0A800EC5457 /* Assets.xcassets */; };
 		A2050ED42C05D0A800EC5457 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A2050ED32C05D0A800EC5457 /* Base */; };
 		A2050ED72C05D0A800EC5457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050ED62C05D0A800EC5457 /* main.m */; };
+		A2050EE22C0F59AD00EC5457 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EE12C0F59AD00EC5457 /* MyClass.m */; };
+		A2050EE52C0F629400EC5457 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A2050EE42C0F629400EC5457 /* ImageCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		A2050ED32C05D0A800EC5457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2050ED52C05D0A800EC5457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2050ED62C05D0A800EC5457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2050EE02C0F59AD00EC5457 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		A2050EE12C0F59AD00EC5457 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		A2050EE32C0F629400EC5457 /* ImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		A2050EE42C0F629400EC5457 /* ImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				A2050EC82C05D0A600EC5457 /* SceneDelegate.m */,
 				A2050ECA2C05D0A600EC5457 /* ViewController.h */,
 				A2050ECB2C05D0A600EC5457 /* ViewController.m */,
+				A2050EE02C0F59AD00EC5457 /* MyClass.h */,
+				A2050EE12C0F59AD00EC5457 /* MyClass.m */,
+				A2050EE32C0F629400EC5457 /* ImageCache.h */,
+				A2050EE42C0F629400EC5457 /* ImageCache.m */,
 				A2050ECD2C05D0A600EC5457 /* Main.storyboard */,
 				A2050ED02C05D0A800EC5457 /* Assets.xcassets */,
 				A2050ED22C05D0A800EC5457 /* LaunchScreen.storyboard */,
@@ -148,7 +158,9 @@
 			files = (
 				A2050ECC2C05D0A600EC5457 /* ViewController.m in Sources */,
 				A2050EC62C05D0A600EC5457 /* AppDelegate.m in Sources */,
+				A2050EE22C0F59AD00EC5457 /* MyClass.m in Sources */,
 				A2050ED72C05D0A800EC5457 /* main.m in Sources */,
+				A2050EE52C0F629400EC5457 /* ImageCache.m in Sources */,
 				A2050EC92C05D0A600EC5457 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

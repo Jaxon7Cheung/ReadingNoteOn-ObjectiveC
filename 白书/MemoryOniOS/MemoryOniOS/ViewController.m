@@ -7,18 +7,23 @@
 
 #import "ViewController.h"
 #import "objc/runtime.h"
+#import "MyClass.h"
 
-@interface ViewController ()
+@interface ViewController () <MyDelegate>
+
+@property (nonatomic, copy)void (^completionBlock)(void);
+@property (nonatomic, strong)NSTimer* timer;
+@property (nonatomic, strong)MyClass* myClass;
 
 @end
 
 @implementation ViewController
 
-void PrintClassInfo(id obj) {
-    Class cls = object_getClass(obj);
-    Class superCls = class_getSuperclass(cls);
-    NSLog(@"=== %s : %s ===", class_getName(cls), class_getName(superCls));
-}
+//void PrintClassInfo(id obj) {
+//    Class cls = object_getClass(obj);
+//    Class superCls = class_getSuperclass(cls);
+//    NSLog(@"=== %s : %s ===", class_getName(cls), class_getName(superCls));
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,12 +38,27 @@ void PrintClassInfo(id obj) {
 // ...
 //    CGImageRelease(imageRef); //  释放内存
     
-    for (int i = 0; i < 1000; ++i) {
-        @autoreleasepool {
-            UIImage* image = [UIImage imageNamed: @"largeImage"];
-            // ...
-        }
-    }
+//    for (int i = 0; i < 1000; ++i) {
+//        @autoreleasepool {
+//            UIImage* image = [UIImage imageNamed: @"largeImage"];
+//            // ...
+//        }
+//    }
+    
+//    self.timer = [NSTimer scheduledTimerWithTimeInterval: 1.0 target: self selector: @selector(doSomething) userInfo: nil repeats: NO];
+    
+//    self.myClass = [[MyClass alloc] init];
+//    self.myClass.delegate = self;
+
+    
+}
+
+- (void)dealloc {
+    NSLog(@"ViewController 对象被释放了");
+}
+
+- (void)doSomething {
+    NSLog(@"执行do Something 方法");
 }
 
 //- (void)timeIsUp {
